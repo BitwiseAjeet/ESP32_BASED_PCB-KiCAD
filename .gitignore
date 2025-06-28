@@ -1,9 +1,19 @@
 # Ignore folders
 ignore
+.vscode/
+.pio/
+build/
+__pycache__/
+*-backups/
 
-# Ignore all .bin and .elf files
-*.bin
+# Ignore compiled and build artifacts
+*.o
+*.ko
+*.obj
 *.elf
+*.bin
+*.hex
+*.d
 
 # Ignore logs
 *.log
@@ -13,5 +23,6 @@ ignore
 *.tmp
 .autosave*
 
-# Ignore KiCad backup files
-*-backups/
+# OS/System files
+.DS_Store
+Thumbs.db
