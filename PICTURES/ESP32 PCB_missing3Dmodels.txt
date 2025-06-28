@@ -1,0 +1,9 @@
+### Missing 3D models - created on 2025-06-28 15:51
+### Printed by checking_3D_models plugin
+Board file: C:\Users\Ajeet\Desktop\FIRST_PCB\TEST_PCB\TECHexploration p1\ESP32 PCB\ESP32 PCB.kicad_pcb
+3D missing models written to:
+C:\Users\Ajeet\Desktop\FIRST_PCB\TEST_PCB\TECHexploration p1\ESP32 PCB\ESP32 PCB_missing3Dmodels.txt
+-------
+-------
+NUM of 3D missing models:0
+checked extensions ['.stp', '.step', '.stpZ']

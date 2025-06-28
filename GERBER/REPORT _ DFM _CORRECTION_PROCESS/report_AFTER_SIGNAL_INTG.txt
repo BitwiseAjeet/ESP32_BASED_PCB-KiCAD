@@ -1,0 +1,14 @@
+Plotted to 'C:\Users\Ajeet\Desktop\FIRST_PCB\TEST_PCB\TECHexploration p1\ESP32 PCB\GERBER\ESP32 PCB-F_Cu.gbr'.
+Plotted to 'C:\Users\Ajeet\Desktop\FIRST_PCB\TEST_PCB\TECHexploration p1\ESP32 PCB\GERBER\ESP32 PCB-In1_Cu.gbr'.
+Plotted to 'C:\Users\Ajeet\Desktop\FIRST_PCB\TEST_PCB\TECHexploration p1\ESP32 PCB\GERBER\ESP32 PCB-In2_Cu.gbr'.
+Plotted to 'C:\Users\Ajeet\Desktop\FIRST_PCB\TEST_PCB\TECHexploration p1\ESP32 PCB\GERBER\ESP32 PCB-B_Cu.gbr'.
+Plotted to 'C:\Users\Ajeet\Desktop\FIRST_PCB\TEST_PCB\TECHexploration p1\ESP32 PCB\GERBER\ESP32 PCB-F_Paste.gbr'.
+Plotted to 'C:\Users\Ajeet\Desktop\FIRST_PCB\TEST_PCB\TECHexploration p1\ESP32 PCB\GERBER\ESP32 PCB-B_Paste.gbr'.
+Plotted to 'C:\Users\Ajeet\Desktop\FIRST_PCB\TEST_PCB\TECHexploration p1\ESP32 PCB\GERBER\ESP32 PCB-F_Silkscreen.gbr'.
+Plotted to 'C:\Users\Ajeet\Desktop\FIRST_PCB\TEST_PCB\TECHexploration p1\ESP32 PCB\GERBER\ESP32 PCB-B_Silkscreen.gbr'.
+Plotted to 'C:\Users\Ajeet\Desktop\FIRST_PCB\TEST_PCB\TECHexploration p1\ESP32 PCB\GERBER\ESP32 PCB-F_Mask.gbr'.
+Plotted to 'C:\Users\Ajeet\Desktop\FIRST_PCB\TEST_PCB\TECHexploration p1\ESP32 PCB\GERBER\ESP32 PCB-B_Mask.gbr'.
+Plotted to 'C:\Users\Ajeet\Desktop\FIRST_PCB\TEST_PCB\TECHexploration p1\ESP32 PCB\GERBER\ESP32 PCB-Edge_Cuts.gbr'.
+Created Gerber job file 'C:\Users\Ajeet\Desktop\FIRST_PCB\TEST_PCB\TECHexploration p1\ESP32 PCB\GERBER\ESP32 PCB-job.gbrjob'.
+Info: Done.
+Info: Done.

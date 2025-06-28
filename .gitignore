@@ -1,0 +1,17 @@
+# Ignore folders
+ignore
+
+# Ignore all .bin and .elf files
+*.bin
+*.elf
+
+# Ignore logs
+*.log
+
+# Ignore backup and autosave files
+*.bak
+*.tmp
+.autosave*
+
+# Ignore KiCad backup files
+*-backups/
