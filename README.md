@@ -1,89 +1,96 @@
-# ESP32_BASED_PCB-KiCAD
-This project involved the end-to-end design and development of a compact, low-power IoT system using the ESP32-C3-02 SoC and integrated TP4056 Li-ion battery charger. The goal was to create a reliable and modular platform for wireless environmental data monitoring, powered by a rechargeable battery with onboard protection and USB-C support.
 
-Key Features
-Microcontroller: ESP32-C3-02 SoC for Wi-Fi and BLE connectivity.
+ESP32-C3 Based IoT PCB for Remote Sensing
 
-Power Management: TP4056 IC for single-cell Li-ion battery charging with thermal regulation.
+This repository contains the complete design and documentation for a custom-built IoT PCB developed using the **ESP32-C3-02 SoC** and **TP4056 Li-ion charging IC**. Designed for sensor-based remote monitoring applications, the board integrates power management, display, logging, and modular expandability.
 
-Battery Protection: Integrated under-voltage lockout and trickle charging.
+---
 
-Sensors and Modules:
-BME280 for temperature, humidity, and pressure sensing.
+##  Key Features
 
-Ambient light and sound sensors.
+- Microcontroller: ESP32-C3-02 (Wi-Fi + BLE support)
+- Power Management: TP4056-based Li-ion charging with USB-C input
+- Sensors:
+  - BME280 (temperature, humidity, pressure)
+  - Light sensor (TEMT6000)
+  - Sound sensor (MAX4466)
+- Peripherals:
+  - I2C OLED display
+  - microSD card for data logging
+  - Flash memory chip (W25Q32)
+- Power Input:
+  - USB-C and LiPo battery support
+- Form Factor: Compact, <100mm x 100mm
+- Expansion: Modular headers for I2C/SPI sensors
 
-Mini SD card reader for data storage.
+---
 
-Flash memory for additional storage.
+## Folder Structure
 
-Display: I2C OLED for real-time data visualization.
+```bash
+ESP32_BASED_PCB-KiCAD/
+├── GERBER/                    # Gerber and drill files for fabrication
+├── Datasheets/               # Component datasheets (ICs, sensors, etc.)
+├── libraries/                # Custom KiCad symbols, footprints, and 3D models
+├── PICTURES/                 # Rendered PCB images and design snapshots
+├── *.kicad_sch, *.kicad_pcb  # Schematic and PCB layout files
+├── _autosave-*               # Backup files (can be ignored)
+├── README.md                 # This file
+├── .gitignore                # File exclusions
+````
 
-Power Inputs:
+---
 
+## Design Highlights
 
-USB-C connector for charging and data transfer.
+* Clean two-layer PCB layout with optimized signal routing
+* Manual resolution of DRC/ERC issues in KiCad
+* Verified using DFM rules for manufacturability
+* Signal integrity maintained across I2C/SPI
+* Modular architecture for ease of debugging and expansion
+* Custom footprint creation for several unique parts
 
-LiPo battery connector with onboard charging circuitry.
+---
 
-Indicators: LED indicators for charge status (charging and full).
+## Preview
 
-Design Highlights
+![PCB Render](./PICTURES/ESP32%20PCB.png)
+![Schematic Snapshot](./PICTURES/SCHEMATIC.png)
 
+---
 
-Power Supply Integration:
+## Getting Started
 
-USB-C provides power for both charging and system operation.
+To replicate or adapt this design:
 
-TP4056 handles battery charging and protection.
+1. Clone this repo:
 
-Power supplied to the ESP32-C3-02 is regulated for stability.
+   ```bash
+   git clone https://github.com/BitwiseAjeet/ESP32_BASED_PCB-KiCAD.git
+   ```
 
+2. Open the KiCad project file:
 
-Modular Architecture:
+   * `ESP32 PCB.kicad_pro`
 
-Supports various sensors and peripherals for IoT applications.
+3. Explore the schematic (`.kicad_sch`) and layout (`.kicad_pcb`)
 
-Expandable via additional I2C devices.
+4. Export Gerbers and BOM using KiCad's plot function for manufacturing
 
-Safe and Efficient Charging:
+---
 
+##  License
 
-Programmable charging current using an external resistor.
+This project is licensed under the [MIT License](LICENSE) – feel free to use, modify, or contribute.
 
-Automatic charge termination and battery protection.
+---
 
+🙋‍♂️ Author
 
-Compact and Reliable Layout:
+**Ajeet Kumar**
+[LinkedIn](https://www.linkedin.com/in/ajeet-mishra-296153242) | [GitHub](https://github.com/BitwiseAjeet)
 
+---
 
-Optimized PCB traces for minimal power loss.
+ 💡 Contributions Welcome!
 
-Thermal management for the TP4056 and other components.
-
-
-Applications
-
-IoT edge devices for environmental monitoring.
-
-Battery-powered data logging systems.
-
-Prototyping platform for ESP32-based projects.
-
-Repository Contents
-
-Schematic and PCB Layout: KiCad files for the board design.
-
-Firmware: Source code for the ESP32-C3-02 to interface with sensors and peripherals.
-
-Documentation:
-
-Datasheets for the TP4056 and other components.
-
-Assembly instructions.
-
-Testing procedures.
-
-License: MIT License.
-
-
+If you spot issues or want to build on this project, feel free to open an [Issue](https://github.com/BitwiseAjeet/ESP32_BASED_PCB-KiCAD/issues) or submit a pull request.
